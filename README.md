@@ -143,6 +143,25 @@ For detailed steps and tasks, see [project_plan.md](./project_plan.md).
 
 ---
 
+## Known Constraints
+
+1. **Local-Only Operation**
+   - All indexing and search operations are strictly performed on your local machine
+   - No data is ever sent to external servers or cloud services
+   - No telemetry or usage data collection
+
+2. **Zero External Dependencies**
+   - No API calls or external service integrations
+   - No cloud sync or backup features
+   - Complete offline functionality
+
+3. **Resource Considerations**
+   - Index size scales with indexed content
+   - Memory usage is optimized but depends on search complexity
+   - Background processing used for intensive operations
+
+---
+
 ## License
 
 (Choose a license for your project, e.g. MIT, Apache 2.0, etc. If none is specified, just note "All rights reserved" or "Proprietary" here.)
