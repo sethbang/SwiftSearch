@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftSearch}",
+            "name": "Debug SwiftSearch",
+            "program": "${workspaceFolder:SwiftSearch}/.build/debug/SwiftSearch",
+            "preLaunchTask": "swift: Build Debug SwiftSearch"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftSearch}",
+            "name": "Release SwiftSearch",
+            "program": "${workspaceFolder:SwiftSearch}/.build/release/SwiftSearch",
+            "preLaunchTask": "swift: Build Release SwiftSearch"
+        }
+    ]
+}
